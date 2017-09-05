@@ -1,3 +1,6 @@
 compile:
   override:
     - cp example.txt "$CIRCLE_ARTIFACTS"
+test:
+  override:
+    - echo 'HELLO WORLD'
